@@ -1,0 +1,33 @@
+.friends ul{
+    display: flex;
+    color: aqua;
+    list-style-type: none;
+    height: 90px;
+    margin-bottom: 10px;
+    border-radius:5px;
+    flex-direction: column;
+
+    
+   
+}
+.friends{
+    border: 2px solid black;
+    background-color: black;
+}
+.friends ul li{
+    margin-right: 10px;
+    flex-basis: 25%;
+    flex-direction: column;
+}
+.friends.home{
+    display: flex;
+    color: rgb(204, 101, 37);
+    list-style-type: none;
+    border: 2px solid rgb(97, 3, 3);
+    background-color: rgb(240, 218, 218);
+    height: 90px;
+    margin-bottom: 10px;
+    border-radius:5px;
+    flex-direction: column;
+
+}
